@@ -1,4 +1,4 @@
-TechnoDevelopCorp.github.io
+technodevelopcorp.github.io
 ===========================
 
 Organization webpage
