@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://technodevelopcorp.github.io
+title: TechnoDevelop Corp
+subtitle: Innovation, Design and Development by Global Synergy.
+author: TechnoDevelop Corporation
 simple_search: http://google.com/search
 description:
 
