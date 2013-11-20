@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Promotion campaing at Hong-Kong ICT expo"
+title: "Promotion Campaign at Hong-Kong ICT expo"
 date: 2011-04-16
 comments: true
 categories: 

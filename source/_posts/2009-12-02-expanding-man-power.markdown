@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Expanding Man Power"
+title: "Expanding Manpower"
 date: 2009-12-02
 comments: false
 categories: 
