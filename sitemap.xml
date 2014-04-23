@@ -1,87 +1,93 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://www.technodevelop.com/blog/2009/06/20/secure-nrc-irap-project/</loc>
+        <loc>http://technodevelopcorp.github.io/blog/2009/06/20/secure-nrc-irap-project/</loc>
         <lastmod>2014-02-14T13:40:23+05:30</lastmod>
     </url>
     <url>
-        <loc>http://www.technodevelop.com/blog/2009/08/23/short-listed-talent-first/</loc>
+        <loc>http://technodevelopcorp.github.io/blog/2009/08/23/short-listed-talent-first/</loc>
         <lastmod>2014-02-14T13:40:23+05:30</lastmod>
     </url>
     <url>
-        <loc>http://www.technodevelop.com/blog/2009/09/07/secure-nrc-irap-project/</loc>
-        <lastmod>2014-02-14T13:40:23+05:30</lastmod>
-    </url>
-    <url>
-        <loc>http://www.technodevelop.com/blog/2009/12/01/part-of-lead-to-win-ecosystem/</loc>
-        <lastmod>2014-02-14T13:40:23+05:30</lastmod>
-    </url>
-    <url>
-        <loc>http://www.technodevelop.com/blog/2009/12/02/expanding-man-power/</loc>
-        <lastmod>2014-02-14T13:40:23+05:30</lastmod>
-    </url>
-    <url>
-        <loc>http://www.technodevelop.com/blog/2011/04/13/participates-in-ottawa-taiwan-atc/</loc>
-        <lastmod>2014-02-14T13:40:23+05:30</lastmod>
-    </url>
-    <url>
-        <loc>http://www.technodevelop.com/blog/2011/04/16/hong-kong-ict-expo-product-promo/</loc>
+        <loc>http://technodevelopcorp.github.io/blog/2009/09/07/secure-nrc-irap-project/</loc>
         <lastmod>2014-02-14T13:40:23+05:30</lastmod>
     </url>
     <url>
         <loc>
-            http://www.technodevelop.com/blog/2012/04/15/selected-by-invest-ottawa-to-advance-multi-point-stimulation/
+            http://technodevelopcorp.github.io/blog/2009/12/01/part-of-lead-to-win-ecosystem/
+        </loc>
+        <lastmod>2014-02-14T13:40:23+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://technodevelopcorp.github.io/blog/2009/12/02/expanding-man-power/</loc>
+        <lastmod>2014-02-14T13:40:23+05:30</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://technodevelopcorp.github.io/blog/2011/04/13/participates-in-ottawa-taiwan-atc/
+        </loc>
+        <lastmod>2014-02-14T13:40:23+05:30</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://technodevelopcorp.github.io/blog/2011/04/16/hong-kong-ict-expo-product-promo/
+        </loc>
+        <lastmod>2014-02-14T13:40:23+05:30</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://technodevelopcorp.github.io/blog/2012/04/15/selected-by-invest-ottawa-to-advance-multi-point-stimulation/
         </loc>
         <lastmod>2014-04-23T15:53:01+05:30</lastmod>
     </url>
     <url>
         <loc>
-            http://www.technodevelop.com/blog/2012/05/01/short-listed-early-win-company-ric/
+            http://technodevelopcorp.github.io/blog/2012/05/01/short-listed-early-win-company-ric/
         </loc>
         <lastmod>2014-02-14T13:40:23+05:30</lastmod>
     </url>
     <url>
         <loc>
-            http://www.technodevelop.com/blog/2012/09/01/attempts-in-grand-challenges-canada-2012/
+            http://technodevelopcorp.github.io/blog/2012/09/01/attempts-in-grand-challenges-canada-2012/
         </loc>
         <lastmod>2014-02-14T13:40:23+05:30</lastmod>
     </url>
     <url>
         <loc>
-            http://www.technodevelop.com/blog/2013/11/21/development-of-low-cost-diagnostic-and-monitoring-method-for-diabetes-prevention/
+            http://technodevelopcorp.github.io/blog/2013/11/21/development-of-low-cost-diagnostic-and-monitoring-method-for-diabetes-prevention/
         </loc>
         <lastmod>2014-02-16T20:55:45+05:30</lastmod>
     </url>
     <url>
-        <loc>http://www.technodevelop.com/</loc>
+        <loc>http://technodevelopcorp.github.io/</loc>
         <lastmod>2014-04-23T15:53:01+05:30</lastmod>
     </url>
     <url>
-        <loc>http://www.technodevelop.com/about/</loc>
+        <loc>http://technodevelopcorp.github.io/about/</loc>
         <lastmod>2014-02-14T13:40:23+05:30</lastmod>
     </url>
     <url>
-        <loc>http://www.technodevelop.com/blog/</loc>
+        <loc>http://technodevelopcorp.github.io/blog/</loc>
         <lastmod>2014-04-23T15:53:01+05:30</lastmod>
     </url>
     <url>
-        <loc>http://www.technodevelop.com/blog/archives/</loc>
+        <loc>http://technodevelopcorp.github.io/blog/archives/</loc>
         <lastmod>2014-04-23T15:53:01+05:30</lastmod>
     </url>
     <url>
-        <loc>http://www.technodevelop.com/contact/</loc>
+        <loc>http://technodevelopcorp.github.io/contact/</loc>
         <lastmod>2014-02-14T13:40:23+05:30</lastmod>
     </url>
     <url>
-        <loc>http://www.technodevelop.com/mission/</loc>
+        <loc>http://technodevelopcorp.github.io/mission/</loc>
         <lastmod>2014-02-14T13:40:23+05:30</lastmod>
     </url>
     <url>
-        <loc>http://www.technodevelop.com/background/</loc>
+        <loc>http://technodevelopcorp.github.io/background/</loc>
         <lastmod>2014-02-14T13:40:23+05:30</lastmod>
     </url>
     <url>
-        <loc>http://www.technodevelop.com/robots.txt</loc>
+        <loc>http://technodevelopcorp.github.io/robots.txt</loc>
         <lastmod>2014-02-14T13:40:23+05:30</lastmod>
     </url>
 </urlset>
