@@ -1,0 +1,90 @@
+/* Logo CSS */
+.logo {
+  grid-area: logo;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* NavBar CSS */
+.nav {
+  grid-area: nav;
+}
+
+.nav ul,
+li {
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Main */
+.main {
+  grid-area: main;
+}
+
+/* Footer CSS */
+.footer {
+  grid-area: footer;
+}
+
+/* Grid CSS */
+.grid-container {
+  display: inline-grid;
+  grid-template:
+    "logo nav" 100px
+    "main main" 1fr
+    "footer footer" 1fr
+    / 1fr 2fr;
+  grid-gap: 10px;
+  /* justify-content: center; */
+  padding: 10px;
+  background-color: green;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+/* General CSS */
+
+* {
+  font-family: "Calibri";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+a:focus {
+  text-decoration: none;
+  color: black;
+}
