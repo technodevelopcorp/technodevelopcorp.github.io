@@ -5,22 +5,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home- TechnoDevelop</title>
-  <link rel="stylesheet" href="stylesheets/index.css">
+  <link rel="stylesheet" href="./stylesheets/index.css">
 </head>
 
 <div class="grid-container">
 
   <body>
-    <div class="logo"><img src="./images/technodevelop_logo2.png" alt=""></div>
+    <div class="logo" id="logo"><a href="./index.html"><img src="./images/technodevelop_logo2.png" alt=""></a></div>
     <div class="nav">
       <ul class="navList">
-        <li>ABOUT</li>
-        <li>BLOG</li>
-        <li>CONTACT</li>
+        <li><a href="#logo">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="./blog/blog.html">BLOG</a></li>
+        <li><a href="#footer">CONTACT</a></li>
       </ul>
     </div>
-    <div class="main">Main</div>
-    <div class="footer">Footer</div>
+    <div class="main">
+      <div class="mainGrid">
+        <div class="aboutImg">Sample Image</div>
+        <div class="about" id="about">
+          <h1 style="color: green; text-align: center; padding: 10px;">ABOUT</h1>
+          <p>TechnoDevelop Corporation is an innovative accelerator of development of new technologies, concepts, and
+            products.
+            Although we are not limited to any particular area and the experience of the personnel and pool of advisory
+            resources
+            range from machine tool design, intelligent robotics, design for automation, customized controllers to user
+            interfaces,
+            virtual reality, software development, and business development; our current niche is biomedical devices
+            technology
+            development.
+
+            TechnoDevelop Corporation is also interested in helping to accelerate design for environment. One of our
+            main goals in
+            this direction is to partner with industry and service organizations to facilitate techno-economically
+            viable business
+            methods and models that reduce, eliminate or replace traditional use of resources such as paper and plastic.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer" id="footer">
+      <li><a href="https://github.com/lnaidu14">Image 1</a></li>
+      <li><a href="https://www.linkedin.com/in/lalit-naidu-415146137/">Image 2</a></li>
+      <li><img src="./images/email.png" alt="EmailLogo" id="EmailLogo"></li>
+      <li class="copyright">Copyright © 2021 - TechnoDevelop Corporation</li>
+    </div>
   </body>
 
 </div>

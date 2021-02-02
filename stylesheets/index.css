@@ -1,23 +1,72 @@
 /* Logo CSS */
 .logo {
   grid-area: logo;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: white;
+  box-shadow: 5px 0 5px 0 rgb(1, 88, 1);
+  background-color: rgb(24, 146, 24);
+  overflow: hidden;
+}
+
+.logo img:hover {
+  opacity: 1;
 }
 
 .logo img {
+  display: block;
   max-width: 100%;
   height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  opacity: 0.5;
+  transition: 0.4s;
+  width: 55%;
 }
 
 /* NavBar CSS */
 .nav {
   grid-area: nav;
+  text-align: right;
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: rgb(24, 146, 24);
 }
 
-.nav ul,
-li {
+.navList {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  box-shadow: 5px 0 5px 0 black;
+}
+
+.navList li {
+  max-width: 100%;
+  height: auto;
   display: inline-block;
-  text-align: center;
   font-weight: bold;
+  font-size: 18px;
+  opacity: 0.5;
+  transition: 0.4s;
+  border: 0;
+  margin: 0;
+  box-shadow: 5px 0 15px -4px rgb(1, 88, 1), -5px 0 8px -4px rgb(1, 88, 1);
+  padding: 1em 100px 1em 100px;
+  text-align: center;
+  color: white;
+}
+
+.navList li:hover {
+  opacity: 1;
+}
+
+.navList a:hover {
+  opacity: 1;
+  color: white;
 }
 
 /* Main */
@@ -28,33 +77,78 @@ li {
 /* Footer CSS */
 .footer {
   grid-area: footer;
+  font-size: 36px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: #696969;
 }
 
-/* Grid CSS */
+.footer li {
+  display: inline-block;
+  padding: 10px;
+  opacity: 0.5;
+  transition: 0.4s;
+  text-align: center;
+}
+
+.footer li:hover {
+  opacity: 1;
+}
+
+.footer > .copyright {
+  display: block;
+  text-align: left;
+  font-size: 15px;
+}
+
+/* Root Grid CSS */
 .grid-container {
   display: inline-grid;
-  grid-template:
-    "logo nav" 100px
-    "main main" 1fr
-    "footer footer" 1fr
-    / 1fr 2fr;
-  grid-gap: 10px;
-  /* justify-content: center; */
-  padding: 10px;
-  background-color: green;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 0.5fr 8fr 0.5fr;
+  grid-template-areas:
+    "logo nav"
+    "main main"
+    "footer footer";
+  width: 100vw;
+  height: 100vh;
 }
 
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+/* Main Grid CSS */
+
+.mainGrid {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "aboutImg about"
+    "about aboutImg";
+  width: 100vw;
+  height: 100vh;
+}
+
+/* about CSS */
+
+.about {
+  padding: 100px;
+  text-align: justify;
+  font-size: 22px;
+}
+
+/* aboutImg CSS */
+
+.aboutImg {
+  padding: 100px;
   text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
 }
 
 /* General CSS */
 
 * {
   font-family: "Calibri";
+  padding: 0;
+  margin: 0;
 }
 
 html {
@@ -71,20 +165,20 @@ a {
 
 a:visited {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 a:hover {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 a:active {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 a:focus {
   text-decoration: none;
-  color: black;
+  color: white;
 }
