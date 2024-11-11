@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import dataPosts from "../../data/posts";
 
-export default function Blog() {
+export default function News() {
   const [posts, setPosts] = useState();
   const navigate = useNavigate();
 
@@ -21,14 +21,13 @@ export default function Blog() {
                 key={post.id}
                 id={post.id}
                 onClick={() =>
-                  navigate(`/blog/posts/${post.id}`, { state: post })
+                  navigate(`/news/posts/${post.id}`, { state: post })
                 }
                 className="post"
               >
                 <h4>{post.date}</h4>
                 <h1>{post.title}</h1>
                 <p>{post.content}</p>
-                <h4>Authour: {post.authour}</h4>
               </Card>
             );
           })

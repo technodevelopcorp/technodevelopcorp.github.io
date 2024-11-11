@@ -24,14 +24,14 @@ export default function About() {
 
         <h3>About Us</h3>
         <p>
-          Generating new ideas/assist clients in generating new ideas Converting
-          ideas to prototypes/assist clients in prototype building Presentation
-          and fine-tuning of developed technology suitable for Intellectual
-          Property protection TechnoDevelop Corporation is an innovative
-          accelerator of development of new technologies, concepts, and
-          products. Although we are not limited to any particular area and the
-          experience of the personnel and pool of advisory resources range from
-          Cloud Architecture, Artificial Intelligence Applications, Machine
+          Generating new ideas/assist clients in generating new ideas.
+          Converting ideas to prototypes/assist clients in prototype building.
+          Presentation and fine-tuning of developed technology suitable for
+          Intellectual Property protection. TechnoDevelop Corporation is an
+          innovative accelerator of development of new technologies, concepts,
+          and products. Although we are not limited to any particular area and
+          the experience of the personnel and pool of advisory resources range
+          from Cloud Architecture, Artificial Intelligence Applications, Machine
           Learning, Data Analysis, Intelligent robotics, design for automation,
           customized controllers to user interfaces, manufacturing systems and
           work flow designs, virtual reality, software development, and business

@@ -3,7 +3,7 @@ import Footer from "./components/Footer/Footer";
 import Home from "./routes/Home/Home";
 import Contact from "./routes/Contact/Contact";
 import About from "./routes/About/About";
-import Blog from "./routes/Blog/Blog";
+import News from "./routes/News/News";
 import Post from "./routes/Post/Post";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -20,15 +20,15 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: "/blog",
-        element: <Blog />,
+        path: "/news",
+        element: <News />,
       },
       {
         path: "/contact",
         element: <Contact />,
       },
       {
-        path: "/blog/posts/:id",
+        path: "/news/posts/:id",
         element: <Post />,
       },
     ],
