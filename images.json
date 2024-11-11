@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "itemImageSrc": "./src/assets/idea.png",
+    "thumbnailImageSrc": "./src/assets/idea.png",
+    "alt": "Idea Image",
+    "title": "Idea Image"
+  },
+  {
+    "id": 2,
+    "itemImageSrc": "./src/assets/idea_to_prototype.gif",
+    "thumbnailImageSrc": "./src/assets/idea_to_prototype.gif",
+    "alt": "Idea GIF Image",
+    "title": "Idea GIF Image"
+  }
+]
