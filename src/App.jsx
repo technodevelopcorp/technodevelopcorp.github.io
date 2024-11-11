@@ -1,10 +1,6 @@
-import Navigation from "./components/Navigation/Navigation";
-import Footer from "./components/Footer/Footer";
-import Home from "./routes/Home/Home";
-import Contact from "./routes/Contact/Contact";
-import About from "./routes/About/About";
-import News from "./routes/News/News";
-import Post from "./routes/Post/Post";
+import { Home, Contact, About, News, Post, NotFound } from "./routes";
+import { Navigation, Footer } from "./components";
+
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -30,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/news/posts/:id",
         element: <Post />,
+      },
+      {
+        path: "*",
+        element: <NotFound />,
       },
     ],
   },

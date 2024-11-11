@@ -1,4 +1,4 @@
-import backgroundVideo from "../../assets/unlimitedIdeas.mp4";
+import backgroundVideo from "../assets/unlimitedIdeas.mp4";
 
 export default function Home() {
   return (

@@ -44,6 +44,13 @@ body {
   margin-bottom: 10px;
 }
 
+/* Not found Page */
+
+.notFound {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /* Home Page */
 
 .home {

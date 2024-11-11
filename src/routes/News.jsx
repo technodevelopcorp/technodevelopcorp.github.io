@@ -1,7 +1,7 @@
 import { Card } from "primereact/card";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import dataPosts from "../../data/posts";
+import dataPosts from "../data/posts";
 
 export default function News() {
   const [posts, setPosts] = useState();
