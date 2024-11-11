@@ -1,0 +1,230 @@
+const posts = [
+  {
+    id: 1,
+    image: "",
+    title: "Intellectual Property Update",
+    content:
+      "'Smart Lamina and LSTM Based Deep Neural Network Based on the Data points being generated in Eldercare”, Under prosecution, Estimated to be published in December 2024.",
+    authour: "TechnoDevelop Corporation",
+    date: "September 21st, 2024",
+  },
+  {
+    id: 2,
+    image: "",
+    title: "Intellectual Property Update",
+    content:
+      "'Snoring and Obstructive Sleep Apnea Prevention Device',  Assignable to SleepLabs Canada, Continuation in part, including new innovations adjustable strap and Modular Breathing Assist, USPTO Appl # 18/795,333 dtd. To be published in November 2024.",
+    authour: "TechnoDevelop Corporation",
+    date: "August 6th, 2024",
+  },
+  {
+    id: 3,
+    image: "",
+    title: "Intellectual Property Update",
+    content:
+      "'Snoring and Obstructive Sleep Apnea Prevention Device', Assignable to SleepLabs Canada, USPTO Appl # 17824897 datd 26 May 2022, Published as Pub . No: US 2022/0287871 A1 dated Sept. 15, 2022, Response to Non-final rejection",
+    authour: "TechnoDevelop Corporation",
+    date: "November 21st, 2023",
+  },
+  {
+    id: 4,
+    image: "",
+    title: "Intellectual Property Update",
+    content:
+      "'Hardware Accelerator For EAicient Convolution Processing': USPTO Appl#16858637 (Utility Non-Provisional), Filed on 26/04/2020 Pub. #US 2020/0264935 on Aug. 20, 2020; OAice Action Response for Non-final reject dated 21 Oct, 2022, prosecuted successfully to Grant allowance as issued patent US 11,797,345.",
+    authour: "TechnoDevelop Corporation",
+    date: "October 23rd, 2023",
+  },
+  {
+    id: 5,
+    image: "",
+    title: "Intellectual Property Update",
+    content:
+      "'A Method For Real Time Surface Tracking In Unstructured Environments': USPTO Appl#16862143 (Utility Non-Provisional); Pub. #US 2020/0258237 Filed on 29/04/2020 Published on Aug. 13, 2020; Examiner report dtd. 24 June 2021, responded on 23 Sept. 2021; Prosecuted to allowance as issued patent US 11,315,257.",
+    authour: "TechnoDevelop Corporation",
+    date: "April 26th, 2022",
+  },
+  {
+    id: 6,
+    image: "",
+    title: "Intellectual Property Update",
+    content:
+      "'Smart Monitoring of Belt Tension and Slip': USPTO Appl# 17026170 (Utility Non Provisional); Filed on 19/09/2020 Pub. # US 2021/0101753 dated 8 April 2021. Examiner report dtd. 10 June 2021, responded on 09 Sept. 2021; Granted allowance on 21 Sept. 2021, Issued as US 11,235,934.",
+    authour: "TechnoDevelop Corporation",
+    date: "February 1st, 2022",
+  },
+
+  {
+    id: 7,
+    image: "",
+    title: "Interactions with Greenhouse Farms in North America",
+    content:
+      "TechnoDevelop is pleased to announce development of a semi-automated harvest tool to aid harvest of selected vegetables in greenhouses. The tool has been developed keeping the needs of small and medium farms in mind where expensive deployment of fully automated robotic systems may not be feasible due to less structured layouts apart from affordability constraints. The tool incorporates patented Tactile Sensing technology to aid in assessment of ripeness through firmness measure, and patent pending approach using optimized path planning resulting in considerable reduction in harvest and categorization times. TechnoDevelop has commenced the drive to get feedback from potential users of the novel equipment.",
+    authour: "TechnoDevelop Corporation",
+    date: "September 26th, 2020",
+  },
+  {
+    id: 8,
+    image: "",
+    title: "Intellectual Property Update",
+    content:
+      "US Patent application with a TechnoDevelop stakeholder Co-inventor along with Co-inventors from industry and academia titled “Smart Monitoring of Belt Tension and Slip”, US Patent Filing Ref. Application # 17026170 filed dated 19 Sept 2020.",
+    authour: "TechnoDevelop Corporation",
+    date: "September 19th, 2020",
+  },
+  {
+    id: 9,
+    image: "",
+    title: "Intellectual Property Update",
+    content:
+      "US Patent application with a TechnoDevelop stakeholder Co-inventor along with Co-inventors from industry and academia titled “Hardware Accelerator For Efficient Convolution Processing”, Pub. #US 2020/0264935 published dated Aug. 20, 2020.",
+    date: "August 20th, 2020",
+  },
+  {
+    id: 10,
+    image: "",
+    title: "Intellectual Property Update",
+    content:
+      "US Patent application with a TechnoDevelop stakeholder Co-inventor along with Co-inventors from industry and academia titled “A Method For Real Time Surface Tracking in Unstructured Environments” Pub. #US 2020/0258237 published dated Aug. 13, 2020.",
+    authour: "TechnoDevelop Corporation",
+    date: "August 13th, 2020",
+  },
+  {
+    id: 11,
+    image: "",
+    title: "Canadian Patent Granted",
+    content:
+      "Canadian Patent Appl. titled 'Gripper, system and process for gripping, orienting and handling a biological horticultural object', CA3033124C granted. dtd. 26 Nov. 2019.",
+    authour: "TechnoDevelop Corporation",
+    date: "November 26th, 2019",
+  },
+  {
+    id: 12,
+    image: "",
+    title: "Canadian and PCT Patent Published",
+    content:
+      "Canadian Patent Appl. titled 'Gripper, system and process for gripping, orienting and handling a biological horticultural object', CA3033124C and PCT WO 2018/201244A1 pub. dtd. 08 Nov. 2018, Co-Inventors: Christopher Allan Douglas MOHR (Vineland), Gideon AVIGAD (Vineland), Jyoti Prakash NAIDU (TechnoDevelop), Ranjan Kumar MISHRA (TechnoDevelop).",
+    authour: "TechnoDevelop Corporation",
+    date: "November 8th, 2018",
+  },
+  {
+    id: 13,
+    image: "",
+    title:
+      "Purchase order for R&D services from Vineland Research and Innovation Centre Canada",
+    content:
+      "TechnoDevelop is pleased to receive the contract for providing their Research and Development Services for assisting the Vineland Research and Innovation Centre towards enhancing automation in horticulture/ floriculture.",
+    authour: "TechnoDevelop Corporation",
+    date: "December 19th, 2017",
+  },
+  {
+    id: 14,
+    image: "",
+    title: "Visit to Vineland Research and Innovation Centre Canada",
+    content:
+      "TechnoDevelop management and executives visited the Vineland Research and Innovation Centre. The discussions included exploring potential joint research and development in collaborative/ joint working mode as well as contract for services mode. Top officials of both sides (including, for example, Manager, Business Planning & Commercialization) participated in the meetings along with engineers and scientists.",
+    authour: "TechnoDevelop Corporation",
+    date: "September 29th, 2017",
+  },
+  {
+    id: 15,
+    image: "",
+    title: "Collaboration with Vineland Research and Innovation Centre Canada",
+    content:
+      "TechnoDevelop is pleased to announce initiation of strategic discussions on both technology development and business opportunities exploration with the prestigious Vineland Research and Innovation Centre, Vineland Station, Canada.",
+    authour: "TechnoDevelop Corporation",
+    date: "June 26th, 2017",
+  },
+  {
+    id: 16,
+    image: "",
+    title:
+      "Development of low cost diagnostic and monitoring method for diabetes prevention",
+    content:
+      "TechnoDevelop selected by Grand Challenges Canada for the Star of Global Health Award for the project “Development of Low Cost Diagnostic and Monitoring Method for Diabetes Prevention”. Grand Challenges Canada is funded by the Government of Canada and is dedicated to supporting Bold Ideas with Big Impact in global health.",
+    authour: "TechnoDevelop Corporation",
+    date: "Nov 21st, 2013",
+  },
+  {
+    id: 17,
+    image: "",
+    title: "Participated in Grand Challenges Canada Round (2012)",
+    content:
+      "TechnoDevelop participates in Grand Challenges Canada - Bold Ideas for Global Health Program. TechnoDevelop will work on business methods, processes, diagnostic approaches for disease prevention, and related issues contributing to Global Health.",
+    authour: "TechnoDevelop Corporation",
+    date: "Sep 1st, 2012",
+  },
+  {
+    id: 18,
+    image: "",
+    title: "Short listed as an early win company by RIC",
+    content:
+      "TechnoDevelop shortlisted as an Early Win Company by Research Innovation Commercialization (RIC) Centre. The Award through Invest Ottawa will enable TechnoDevelop to bring its technologies and products closer to market realization and expansion.",
+    authour: "TechnoDevelop Corporation",
+    date: "May 1st, 2012",
+  },
+  {
+    id: 19,
+    image: "",
+    title: "Selected by Invest Ottawa to advance multi-point stimulation",
+    content:
+      "TechnoDevelop selected by Invest Ottawa under Research and Innovation Commercialization Centre (RIC) promoted VentureStart Program to advance and commercialize multi-point stimulation based communication technologies.",
+    authour: "TechnoDevelop Corporation",
+    date: "Apr 15th, 2012",
+  },
+  {
+    id: 20,
+    image: "",
+    title: "Promotion campaign at Hong Kong ICT Expo",
+    content:
+      "TechnoDevelop promotes its products and services at the Canadian Pavilion in the International ICT Expo held at Hong Kong Convention and Exhibition Center on April 13-16, 2011.",
+    authour: "TechnoDevelop Corporation",
+    date: "Apr 16th, 2011",
+  },
+  {
+    id: 21,
+    image: "",
+    title: "Participated in the Ottawa-Taiwan ATC Round Table Discussion",
+    content:
+      "TechnoDevelop participates in the Ottawa-Taiwan Advanced Technology Cooperation round-table discussions on Wireless and Medical Device Technologies.",
+    authour: "TechnoDevelop Corporation.",
+    date: "Apr 13th, 2011",
+  },
+  {
+    id: 22,
+    image: "",
+    title: "Expanding Manpower",
+    content:
+      "TechnoDevelop Corp. expands its manpower network of resources globally by recruiting experienced technology personnel from the Carleton University’s Technology Innovation Management (TIM) program. The experts have 2 to 16 years of experience in high tech development and are expected to work for TechnoDevelop-TIM joint projects at Ottawa, Singapore, Bangalore, and Chennai.",
+    date: "Dec 2nd, 2009",
+  },
+  {
+    id: 23,
+    image: "",
+    title: "Part of the Lead to Win Ecosystem",
+    content:
+      "TechnoDevelop Corp. proposed to be part of a group of product and service providers under the Lead To Win Ecosystems in several communities of Ontario. The company plans to develop and commercialize required customer premise equipment - FlyWizer™ terminals that allow households to receive electronic flyers from vendors and pictorial information from emergency service providers, contributing to environmental protection through reduced use of paper. The technology and related business method is under patenting.",
+    authour: "TechnoDevelop Corporation",
+    date: "Dec 1st, 2009",
+  },
+  {
+    id: 24,
+    image: "",
+    title: "Secures NRC-IRAP Project",
+    content:
+      "TechnoDevelop Corp. secures NRC-IRAP project for business development in biomedical field.",
+    authour: "TechnoDevelop Corporation",
+    date: "Sep 7th, 2009",
+  },
+  {
+    id: 25,
+    image: "",
+    title: "Short Listed by Talent First Network",
+    content:
+      "TechnoDevelop Corp. shortlisted by Talent First Network as one of the most promising technology companies with global outlook and potential for development.",
+    authour: "TechnoDevelop Corporation",
+    date: "Aug 23rd, 2009",
+  },
+];
+
+export default { posts };

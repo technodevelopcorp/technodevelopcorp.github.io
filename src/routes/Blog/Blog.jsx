@@ -2,21 +2,14 @@ import { Card } from "primereact/card";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Blog.css";
+import dataPosts from "../../data/posts";
 
 export default function Blog() {
-  const [posts, setPosts] = useState([]);
+  const [posts, setPosts] = useState();
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("../../posts.json")
-      .then((res) => {
-        if (!res.ok) {
-          throw new Error(`HTTP error! Status: ${res.status}`);
-        }
-        return res.json();
-      })
-      .then((data) => setPosts(data))
-      .catch((error) => console.error("Unable to fetch data:", error));
+    setPosts(dataPosts.posts);
   }, []);
 
   return (
@@ -26,6 +19,7 @@ export default function Blog() {
           posts.map((post) => {
             return (
               <Card
+                key={post.id}
                 id={post.id}
                 onClick={() =>
                   navigate(`/blog/posts/${post.id}`, { state: post })
