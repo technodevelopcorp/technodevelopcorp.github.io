@@ -20,7 +20,7 @@ const posts = [
     image: "",
     title: "Intellectual Property Update",
     content:
-      "'Snoring and Obstructive Sleep Apnea Prevention Device', Assignable to SleepLabs Canada, USPTO Appl # 17824897 datd 26 May 2022, Published as Pub . No: US 2022/0287871 A1 dated Sept. 15, 2022, Response to Non-final rejection",
+      "'Snoring and Obstructive Sleep Apnea Prevention Device', Assignable to SleepLabs Canada, USPTO Appl # 17824897 datd 26 May 2022, Published as Pub . No: US 2022/0287871 A1 dated Sept. 15, 2022.",
     date: "November 21st, 2023",
   },
   {
