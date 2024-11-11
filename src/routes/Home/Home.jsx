@@ -1,5 +1,4 @@
 import backgroundVideo from "../../assets/unlimitedIdeas.mp4";
-import "./Home.css";
 
 export default function Home() {
   return (

@@ -1,5 +1,4 @@
 import { Card } from "primereact/card";
-import "./About.css";
 
 export default function About() {
   return (

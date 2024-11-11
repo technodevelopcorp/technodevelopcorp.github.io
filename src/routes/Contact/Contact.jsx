@@ -1,5 +1,4 @@
 import { Card } from "primereact/card";
-import "./Contact.css";
 
 export default function Contact() {
   return (
