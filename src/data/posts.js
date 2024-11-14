@@ -21,7 +21,7 @@ const posts = [
     title: "Intellectual Property Update",
     content:
       "'Snoring and Obstructive Sleep Apnea Prevention Device', Assignable to SleepLabs Canada, USPTO Appl # 17824897 datd 26 May 2022, Published as Pub . No: US 2022/0287871 A1 dated Sept. 15, 2022.",
-    date: "November 21st, 2023",
+    date: "November 21st, 2022",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const posts = [
     title: "Intellectual Property Update",
     content:
       "'Hardware Accelerator for efficient Convolution Processing': USPTO Appl#16858637 (Utility Non-Provisional), Filed on 26/04/2020 Pub. #US 2020/0264935 on Aug. 20, 2020; Office Action Response for Non-final reject dated 21 Oct, 2022, prosecuted successfully to Grant allowance as issued patent US 11,797,345.",
-    date: "October 23rd, 2023",
+    date: "October 23rd, 2022",
   },
   {
     id: 5,

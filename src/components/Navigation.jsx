@@ -22,7 +22,7 @@ export default function Navigation() {
           },
         },
         {
-          label: "News",
+          label: "Newsroom",
           command: () => {
             navigate("/news");
           },

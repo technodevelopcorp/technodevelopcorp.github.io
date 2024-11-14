@@ -95,3 +95,12 @@ video {
   height: 100%;
   object-fit: cover;
 }
+
+.learn-more-btns {
+  display: flex;
+  margin: 10px;
+}
+
+.learn-more-btn {
+  margin: 10px;
+}

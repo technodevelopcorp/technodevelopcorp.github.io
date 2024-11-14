@@ -15,6 +15,7 @@ export default function Post() {
         <p>{post.state.content}</p>
         <Button
           label="Back to posts"
+          severity="info"
           icon="pi pi-arrow-circle-left"
           onClick={() => navigate("/news")}
         />
