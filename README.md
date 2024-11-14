@@ -1,4 +1,4 @@
-# Welcome to the TDCC app
+# Welcome to the TechnoDevelop app
 
 ## Running the application locally
 
