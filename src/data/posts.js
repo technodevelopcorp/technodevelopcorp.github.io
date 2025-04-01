@@ -141,13 +141,20 @@ const posts = [
   {
     id: 18,
     image: "",
+    title: "Conceptualized an AI based personalized tutor ",
+    content: "TechnoDevelop conceptualized a platform or tool called BodhiProcessorTM (TM as superscript) for personalized tutoring in an interactive manner that can be Artificial Intelligence (AI), Machine Learning (ML), Data Science and other emerging technologies driven. This will enable TechnoDevelop to achieve market realization of individual learning level adaptive self-learning or curative-learning means in future (target about 10-15 years) as relevant foundational technologies mature and computation capacities of devices such as cellular phones enhance.",
+    date: "July 1st, 2012"
+  },
+  {
+    id: 19,
+    image: "",
     title: "Short listed as an early win company by RIC",
     content:
       "TechnoDevelop shortlisted as an Early Win Company by Research Innovation Commercialization (RIC) Centre. The Award through Invest Ottawa will enable TechnoDevelop to bring its technologies and products closer to market realization and expansion.",
     date: "May 1st, 2012",
   },
   {
-    id: 19,
+    id: 20,
     image: "",
     title: "Selected by Invest Ottawa to advance multi-point stimulation",
     content:
@@ -155,7 +162,7 @@ const posts = [
     date: "Apr 15th, 2012",
   },
   {
-    id: 20,
+    id: 21,
     image: "",
     title: "Promotion campaign at Hong Kong ICT Expo",
     content:
@@ -163,7 +170,7 @@ const posts = [
     date: "Apr 16th, 2011",
   },
   {
-    id: 21,
+    id: 22,
     image: "",
     title: "Participated in the Ottawa-Taiwan ATC Round Table Discussion",
     content:
@@ -171,7 +178,7 @@ const posts = [
     date: "Apr 13th, 2011",
   },
   {
-    id: 22,
+    id: 23,
     image: "",
     title: "Expanding Manpower",
     content:
@@ -179,7 +186,7 @@ const posts = [
     date: "Dec 2nd, 2009",
   },
   {
-    id: 23,
+    id: 24,
     image: "",
     title: "Part of the Lead to Win Ecosystem",
     content:
@@ -187,7 +194,7 @@ const posts = [
     date: "Dec 1st, 2009",
   },
   {
-    id: 24,
+    id: 25,
     image: "",
     title: "Secures NRC-IRAP Project",
     content:
@@ -195,7 +202,7 @@ const posts = [
     date: "Sep 7th, 2009",
   },
   {
-    id: 25,
+    id: 26,
     image: "",
     title: "Short Listed by Talent First Network",
     content:
