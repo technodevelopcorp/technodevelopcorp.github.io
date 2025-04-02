@@ -142,7 +142,7 @@ const posts = [
     id: 18,
     image: "",
     title: "Conceptualized an AI based personalized tutor ",
-    content: "TechnoDevelop conceptualized a platform or tool called BodhiProcessorTM (TM as superscript) for personalized tutoring in an interactive manner that can be Artificial Intelligence (AI), Machine Learning (ML), Data Science and other emerging technologies driven. This will enable TechnoDevelop to achieve market realization of individual learning level adaptive self-learning or curative-learning means in future (target about 10-15 years) as relevant foundational technologies mature and computation capacities of devices such as cellular phones enhance.",
+    content: "TechnoDevelop conceptualized a platform or tool called BodhiProcessor\u2122 for personalized tutoring in an interactive manner that can be Artificial Intelligence (AI), Machine Learning (ML), Data Science and other emerging technologies driven. This will enable TechnoDevelop to achieve market realization of individual learning level adaptive self-learning or curative-learning means in future (target about 10-15 years) as relevant foundational technologies mature and computation capacities of devices such as cellular phones enhance.",
     date: "July 1st, 2012"
   },
   {
