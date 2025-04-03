@@ -3,7 +3,7 @@ export default function Footer() {
     <>
       <div className="footer">
         <div className="footer-copyright">
-          Copyright © 2024 - TechnoDevelop Corporation
+          Copyright © 2025 - TechnoDevelop Corporation
         </div>
       </div>
     </>
